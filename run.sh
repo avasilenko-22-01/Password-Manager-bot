@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 src/Bot.py "$@"
+python3 Bot.py "$@"
