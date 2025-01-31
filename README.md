@@ -16,15 +16,15 @@
 ## Сборка проекта
 
 #### Создание виртуального окружения
-~$ pip install virtualenv
-~$ virtualenv myvenv
-~$ source myvenv/bin/activate
+> ~$ pip install virtualenv \
+> ~$ virtualenv myvenv \
+> ~$ source myvenv/bin/activate
 
-#### Запуск команд
+#### Запуск команд на виртуальной машине
 
-(myvenv):~$ python3 main.py
-(myvenv):~$ cd PasswordManagerBot
-(myvenv):~$ chmod +x install.sh
-(myvenv):~$ sudo ./install
+> ~$ python3 main.py \
+> ~$ cd PasswordManagerBot \
+> ~$ chmod +x install.sh \
+> ~$ sudo ./install
 
 Перед запуском нужно создать сервер MySQL.
